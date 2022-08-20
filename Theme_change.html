@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1 class="header">Это мой веб-сайт</h1>
+    </header>
+    <div>
+        <div class="list">Выберите тему:</div>
+        <select id="theme" onchange="themeChange()"> 
+            <option value="white">Белая</option>
+            <option value="black">Черная</option>
+            <option value="blue">Синяя</option>
+            <option value="yellow">Желтая</option>
+            <option value="pink">Розовая</option>
+        </select>
+    </div>
+
+<script>
+  function themeChange(){
+
+    switch (document.getElementById('theme').value){
+        case "white": document.body.style.background = "white";
+        case "white": document.querySelector('.header').style.color = "black";
+        case "white": document.querySelector('.list').style.color = "black";
+        break;
+        case "black": document.body.style.background = "black";
+        case "black": document.querySelector('.header').style.color = "white";
+        case "black": document.querySelector('.list').style.color = "white";
+        break;
+        case "blue": document.body.style.background = "blue";
+        case "blue": document.querySelector('.header').style.color = "black";
+        case "blue": document.querySelector('.list').style.color = "black";
+        break;
+        case "yellow": document.body.style.backgroundColor = "yellow";
+        case "yellow": document.querySelector('.header').style.color = "black";
+        case "yellow": document.querySelector('.list').style.color = "black";
+        break;
+        case "pink": document.body.style.backgroundColor = "pink";
+        case "pink": document.querySelector('.header').style.color = "white";
+        case "pink": document.querySelector('.list').style.color = "white";
+        break;
+    }
+
+  }     
+</script>
+</body>
+</html>
