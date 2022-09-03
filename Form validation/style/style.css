@@ -1,0 +1,43 @@
+.header{
+    background-color:cadetblue;
+    margin-left: 4em;
+}
+.header__h-2{
+    margin: 0;
+    padding: 10px 10px 0 10px;
+    font-size:larger;
+    color: whitesmoke;
+}
+.header__text{
+    padding: 0 10px 10px;
+    font-size:medium;
+    color: whitesmoke;
+}
+.form-group{
+    margin-bottom: 10px;
+}
+.col-form-label{
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.terms__header{
+    color:cadetblue;
+}
+.form-check{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+a{
+    color: red;
+    text-decoration: underline;
+}
+.btn{
+    width: 59%;
+    margin-left: 5.5em;
+}
+.btn{
+    border: 1px solid white;
+    background-color: cadetblue;
+}
